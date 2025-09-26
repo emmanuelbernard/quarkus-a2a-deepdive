@@ -10,6 +10,7 @@
 
     <modules>
         <module>0-weather-agent</module>
+        <module>1-content-writer</module>
         <!--  module>1-chat-models</module>
         <module>2-ai-services</module>
         <module>3-quarkus-ai-services</module>
