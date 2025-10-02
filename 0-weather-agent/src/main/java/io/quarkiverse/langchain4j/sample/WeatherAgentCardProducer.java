@@ -42,7 +42,7 @@ public class WeatherAgentCardProducer {
     public AgentCard agentCard() {
         return new AgentCard.Builder()
                 .name("Weather Agent")
-                .description("Helps with weather in the USA")
+                .description("Helps with weather in the USA, give the weather of a city or a region.")
                 .url("http://localhost:" + getHttpPort())
                 .version("1.0.0")
                 .capabilities(

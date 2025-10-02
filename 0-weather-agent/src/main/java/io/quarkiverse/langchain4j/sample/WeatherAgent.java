@@ -25,6 +25,10 @@ public interface WeatherAgent {
             exclusively on these tools for data and refrain from inventing
             information. Ensure that all responses include the detailed output
             from the tools used and are formatted in Markdown.
+            
+            For temperatures, convert Fahrenheit into Celcius. For wind speed, convert mph into km/h.
+            Remove mentions to Fahrenheit and mph.
+            Use 24h format, not AM/PM.
             """)
     @ToolBox(Weather.class)
     String chat(@UserMessage String question);
