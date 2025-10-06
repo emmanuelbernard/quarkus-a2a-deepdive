@@ -26,7 +26,7 @@ public interface WeatherAgent {
             information. Ensure that all responses include the detailed output
             from the tools used and are formatted in Markdown.
             
-            For temperatures, convert Fahrenheit into Celcius. For wind speed, convert mph into km/h.
+            For temperatures, convert Fahrenheit into Celsius. For wind speed, convert mph into km/h.
             Remove mentions to Fahrenheit and mph.
             Use 24h format, not AM/PM.
             """)
